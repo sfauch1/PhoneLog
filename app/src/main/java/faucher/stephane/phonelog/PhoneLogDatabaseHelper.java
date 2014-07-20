@@ -15,6 +15,7 @@ public class PhoneLogDatabaseHelper  extends SQLiteOpenHelper {
 	}
 	
 	// Method is called during creation of the database
+    //Test for Github
 	@Override
 	public void onCreate(SQLiteDatabase database) {
 		// TODO Auto-generated method stub
