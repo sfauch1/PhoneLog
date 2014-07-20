@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="delete_call">Effacer appel selectionne</string>
+    <string name="delete_all">Effacer tous les appels</string>
+        <string name="missed_call">Appel manque</string>
+    <string name="call_duration">Duree de la conversation : </string>
+</resources>

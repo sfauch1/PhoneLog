@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/callInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33" />
+
+        <TextView
+            android:id="@+id/txtHour"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33" />
+
+        <TextView
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtCallStatus"
+        android:layout_below="@+id/callInfo"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
